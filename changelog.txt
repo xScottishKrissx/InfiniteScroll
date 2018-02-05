@@ -1,0 +1,34 @@
+To-Do-List / Known Issues
+
+  Main Objectives
+  *05/02/2018 - load data from database on scroll position
+  *add data to database using form
+  *add that data to page permanently
+  *Do all of that with and without the use of angular.js
+
+  Arbitrary Rules
+  *Single Page website
+  *Project should be finished within 7 days of start (12/02/2018)
+  *Colour scheme should be red and white
+  *Appearance is secondary to functionality
+
+  Bonus Objectives
+  *Add Images
+  *Make Page responsive
+  *Make page look good
+________________________________________________________________________________
+
+
+Completed
+
+05/02/2018 - Day 1 of Infinite Scroll Project
+  *loaded data from database on scroll position
+
+  Setup Phase Tasks Completed
+  *setup sass
+  *setup github
+  *setup database
+  *connect to database
+  *setup bootstrap
+  *setup js
+  *setup ajax
