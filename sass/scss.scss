@@ -1,7 +1,41 @@
+#header{
+    background-color: #b76568;
+    color:#fff;
+    text-align: center;
+  }
 .posts{
-  width: 40vw;
-  margin: 0 auto;
+  background-color: #b76568;
+  color: white;
+  margin-left: 30vw;
+  width: 68vw;
+  //margin: 0 auto;
+  div{
+    border-bottom: 10px solid white;
+    p{padding-left: 1rem;}
+  }
 }
+.recentPost{
+  background-color: #b76568;
+  color: white;
+  //margin-left: 30vw;
+  width: 68vw;
+  div{
+    border-bottom: 10px solid white;
+    p{padding-left: 1rem;}
+  }
+}
+
+.formContainer{
+  background-color: #b76568;
+  position: fixed;
+  color: white;
+  width: 29vw;
+  //margin: 0 auto;
+  #name{ width: 100%; max-width: 27vw;}
+  textarea{max-width: 27vw;}
+  form{padding-left: 1rem;}
+}
+
 
 .hide{display: none;}
 .show{display: block;}

@@ -2,9 +2,12 @@ To-Do-List / Known Issues
 
   Main Objectives
   *05/02/2018 - load data from database on scroll position
-  *add data to database using form
-  *add that data to page permanently
-  *Do all of that with and without the use of angular.js
+  *06/02/2018 - add data to database using form
+  *06/02/2018 - add that data to page permanently
+  *Do all of that with the use of angular.js
+    *load data from database on scroll position
+    *add data to database using form
+    *add that data to page permanently
 
   Arbitrary Rules
   *Single Page website
@@ -14,12 +17,23 @@ To-Do-List / Known Issues
 
   Bonus Objectives
   *Add Images
+    *Added 06/02/2018 - Add Dedicated "add image" button
+  *Added 06/02/2018 - Add Date and Time to Posts
   *Make Page responsive
   *Make page look good
+  *Added 06/02/2018 - Improve Appearance of buttons
+  *Added 06/02/2018 - Implement Login Systems to hide input form
 ________________________________________________________________________________
 
 
 Completed
+
+06/02/2018 - Day 2
+  -page now starts with info from database on load
+  -added form to accept data from users
+  -user inputted data remains on the page
+  -added button to manually load more content
+  -formatted website to be less basic
 
 05/02/2018 - Day 1 of Infinite Scroll Project
   *loaded data from database on scroll position

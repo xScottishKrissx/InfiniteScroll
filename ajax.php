@@ -7,7 +7,7 @@ if (isset($_POST['getData'])) {
     $start = (int)$_POST['start'];
     $limit = (int)$_POST['limit'];
 
-    $result = $db->prepare("select * FROM version1 LIMIT :start, :limit ");
+    $result = $db->prepare("select * FROM version1 ORDER BY id DESC LIMIT :start, :limit ");
     $result->bindParam(':start' , $start , PDO::PARAM_INT);
     $result->bindParam(':limit' , $limit , PDO::PARAM_INT);
 
@@ -17,7 +17,7 @@ if (isset($_POST['getData'])) {
     if($result->rowCount() > 0){
         $postsOutput = '';
         while ($row = $result->fetch(PDO::FETCH_ASSOC)){
-          $postsOutput .='<div>'.$row['name'].'<p>'.$row['post'].'</p></div>';
+          $postsOutput .='<div><h1>'.$row['name'].'</h1><p>'.$row['post'].'</p></div>';
         }
         exit($postsOutput);
         }

@@ -1,6 +1,39 @@
+#header {
+  background-color: #b76568;
+  color: #fff;
+  text-align: center; }
+
 .posts {
-  width: 40vw;
-  margin: 0 auto; }
+  background-color: #b76568;
+  color: white;
+  margin-left: 30vw;
+  width: 68vw; }
+  .posts div {
+    border-bottom: 10px solid white; }
+    .posts div p {
+      padding-left: 1rem; }
+
+.recentPost {
+  background-color: #b76568;
+  color: white;
+  width: 68vw; }
+  .recentPost div {
+    border-bottom: 10px solid white; }
+    .recentPost div p {
+      padding-left: 1rem; }
+
+.formContainer {
+  background-color: #b76568;
+  position: fixed;
+  color: white;
+  width: 29vw; }
+  .formContainer #name {
+    width: 100%;
+    max-width: 27vw; }
+  .formContainer textarea {
+    max-width: 27vw; }
+  .formContainer form {
+    padding-left: 1rem; }
 
 .hide {
   display: none; }

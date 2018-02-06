@@ -15,21 +15,28 @@
     <title>Infinite Scroll</title>
   </head>
   <body>
-    <h1>Infinite Scroll</h1>
-
-    <?php include ("loadpost.php"); ?>
-    <div class="posts">
-      <p>Commodo aliquip ad Lorem exercitation ullamco tempor commodo ipsum do ut minim dolore voluptate labore labore ad reprehenderit. Commodo sunt dolore commodo et commodo duis excepteur occaecat mollit Lorem qui eu commodo in. Duis esse qui dolore esse est laborum nisi proident nulla laboris magna duis consectetur adipisicing. Cillum duis velit magna reprehenderit ipsum veniam ullamco sint dolore commodo. Mollit dolore est cupidatat non reprehenderit ullamco id est. Cillum pariatur minim qui duis ea sint reprehenderit est aliquip officia eiusmod culpa tempor ad et mollit eu.</p>
-      <p>Magna ipsum duis ea anim sunt ad anim eiusmod. Anim laborum dolore exercitation est mollit ea cupidatat culpa ea exercitation do tempor nulla minim velit. Non ullamco minim ad in excepteur proident et sit voluptate ipsum. Irure mollit cillum nisi proident laborum consequat consequat cupidatat sint ullamco cillum anim. Ad do ipsum fugiat dolore et dolor sunt velit eu aliqua. Dolor sunt dolore sit tempor in occaecat mollit exercitation sint nisi excepteur proident ipsum aliqua occaecat amet. Est sint velit dolor irure anim incididunt ipsum eu. Voluptate consectetur est voluptate fugiat laboris enim ex labore Lorem occaecat occaecat enim excepteur sunt amet incididunt.</p>
-      <p>Aliqua ea minim eu pariatur voluptate nostrud nisi esse. Veniam enim consectetur ipsum do sint id tempor voluptate culpa adipisicing elit laboris officia anim. Aute et magna est proident pariatur incididunt ex. Consectetur nulla Lorem duis ad fugiat eu minim duis culpa nostrud deserunt commodo velit tempor. Et adipisicing officia duis aute non ut sunt cillum. Ex voluptate cillum adipisicing dolor incididunt elit dolore deserunt pariatur ut occaecat et. Occaecat laboris in exercitation amet proident consectetur enim ea ad id. Adipisicing cupidatat cillum culpa ex ad velit irure.</p>
-      <p>Aute minim sunt cupidatat fugiat ad laborum dolor mollit mollit. Voluptate velit ut laboris excepteur amet enim consectetur ipsum voluptate sunt aliqua nisi excepteur do exercitation. Id exercitation reprehenderit consequat sit deserunt ex magna culpa cillum. Nisi ut nulla sit esse sint sint esse ea ut aute. Cupidatat velit culpa qui pariatur velit ad reprehenderit consequat qui adipisicing occaecat ipsum ullamco. Reprehenderit ipsum sunt elit reprehenderit excepteur esse aliqua anim aliqua do.</p>
+    <div id="header"><h1 >Infinite Scroll with Jquery, PHP, SQL and Ajax</h1></div>
+    <button type="button" name="button" id="loadContent"> load content</button>
 
 
+  <div class="formContainer">
+    <form id="inputForm" method="" enctype="" action="">
+      <p>Name</p> <input type="text" id="name" name="firstName" placeholder="Enter your name..." maxlength="100"><br/>
 
-    </div>
+      <br/><br/><textarea name="message" id="postcontent" rows="8" cols="80" placeholder="What's on your mind" maxlength="400"></textarea><br/><br/>
+
+      <!--<input type="file" name="upload" id="uploadFile" >-->
+
+      <!-- <input type="submit" name="submit" value="Submit" id="submitForm" >-->
+      <button type="button" name="button" id="submitForm">Submit</button>
+    </form>
+  </div>
+
+
+    <div class="posts"><?php include ("loadpost.php"); ?></div>
     <div class="loader"><img src="img/loader.gif" alt=""></div>
     <div class="infiniteEnd"><h3>You wouldnt think there would be an end to an infinite scroll but here we are.</h3></div>
-
+    
 
 
 
